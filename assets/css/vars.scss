@@ -1,0 +1,18 @@
+// colors
+$white: #fff;
+$blue: #00BFF3;
+$black: #000;
+$grey: #777777;
+$red: #CB0000;
+
+//fonts
+$mainFont: Arial;
+$secondaryFont: Trebuchet;
+@font-face {
+    font-family: Arial;
+    src: url(../fonts/Arial.ttf);
+}
+@font-face {
+    font-family: Trebuchet;
+    src: url(../fonts/Trebushet.ttf);
+}

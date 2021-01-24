@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunTour</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img class="header__logo__img" src="./assets/img/logo-suntour.svg" alt="logo">
+                    <p class="header__logo__text">Сеть турагенств
+                        <span class="header__logo__text__span"> «Солнце в кругу»</span></p>
+                </div>
+                <div class="header__info">
+                    <div class="header__info__number">044 123-45-67</div>
+                    <div class="header__info__call-to">
+                        <a class="header__info__call-to__link" href="tel:044 123-45-67"> обратный звонок</a>
+                    </div>
+                    <div class="header__info__icons">
+                        <a class="header__info__icons__link" href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.001 0C7.16285 0 0 7.16285 0 16.001C0 24.8372 7.16285 32 16.001 32C24.8372 32 32 24.8372 32 16.001C32 7.16285 24.8372 0 16.001 0ZM22.104 8.14741L19.8918 8.14905C18.1559 8.14905 17.82 8.97403 17.82 10.1841V12.8517H21.9583L21.9567 17.0318H17.82V27.7544H13.504V17.0302H9.89639V12.8517H13.504V9.76995C13.504 6.19425 15.6892 4.24558 18.8798 4.24558L22.1057 4.25049V8.14741H22.104Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="#" class="header__info__icons__link">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.6067 11.0233C16.6067 8.80451 15.2849 5.35486 12.7351 5.35486C11.9343 5.35486 11.0758 5.75588 10.5819 6.37133C10.0593 7.02034 9.90747 7.84859 9.90747 8.6527C9.90747 10.7147 11.1048 14.132 13.7504 14.132C14.5177 14.132 15.3439 13.7646 15.8394 13.2723C16.5461 12.5607 16.6067 11.5777 16.6067 11.0233Z"
+                                    fill="white" />
+                                <path
+                                    d="M14.9474 19.1231C14.7014 19.0928 14.548 19.0928 14.2411 19.0928C13.9644 19.0928 12.3035 19.1533 11.0136 19.5867C10.3376 19.833 8.37134 20.5713 8.37134 22.7581C8.37134 24.9466 10.4927 26.5179 13.7807 26.5179C16.7315 26.5179 18.2996 25.0984 18.2996 23.1914C18.2996 21.6164 17.2844 20.7869 14.9474 19.1231Z"
+                                    fill="white" />
+                                <path
+                                    d="M16.001 0C7.16285 0 0 7.16285 0 16.001C0 24.8371 7.16285 32 16.001 32C24.8371 32 32 24.8371 32 16.001C32 7.16285 24.8371 0 16.001 0ZM12.2731 27.8088C7.81514 27.8088 5.66513 25.6846 5.66513 23.4033C5.66513 22.2955 6.21798 20.7258 8.03079 19.6467C9.93609 18.4767 12.5194 18.3233 13.9022 18.2271C13.4704 17.6739 12.9814 17.0891 12.9814 16.1348C12.9814 15.6119 13.1349 15.3033 13.2867 14.9342C12.9479 14.9645 12.6119 14.9952 12.3034 14.9952C9.04728 14.9952 7.20295 12.5604 7.20295 10.1579C7.20295 8.74323 7.84706 7.17185 9.16881 6.0322C10.9223 4.584 13.317 4.19074 14.978 4.19074H21.0327L19.0345 5.44743H17.1309C17.8376 6.03219 19.3111 7.2631 19.3111 9.60503C19.3111 11.8827 18.0213 12.9634 16.7311 13.9799C16.3296 14.3797 15.8693 14.8094 15.8693 15.4891C15.8693 16.1651 16.3296 16.5342 16.6672 16.8141L17.775 17.6743C19.1274 18.8139 20.3567 19.8611 20.3567 21.9886C20.3567 24.8838 17.5577 27.8088 12.2731 27.8088ZM25.5357 15.6237V18.7231H24.0155V15.6237H20.9398V14.0859H24.0155V11.007H25.5357V14.0859H28.6273V15.6237H25.5357Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                        <a href="#" class="header__info__icons__link">
+                            <svg width="33" height="32" viewBox="0 0 33 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.3339 15.9499C21.3339 18.4833 19.1554 20.5372 16.4676 20.5372C13.7802 20.5372 11.6 18.4829 11.6 15.9499C11.6 13.4144 13.7802 11.3606 16.4676 11.3606C19.1554 11.3606 21.3339 13.4144 21.3339 15.9499Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.9998 16.2056C23.9998 20.1279 20.6269 23.3075 16.4671 23.3075C12.3061 23.3075 8.93314 20.1279 8.93314 16.2056C8.93314 15.5022 9.04333 14.8229 9.2452 14.1816H7.01917V24.1435C7.01917 24.6583 7.45319 25.0802 7.98183 25.0802H24.8586C25.3876 25.0802 25.8212 24.6583 25.8212 24.1435V14.1816H23.689C23.89 14.8229 23.9998 15.5022 23.9998 16.2056Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.9811 11.4947H24.7198C25.3212 11.4947 25.8107 11.0167 25.8107 10.4332V7.89157C25.8107 7.3064 25.3212 6.83008 24.7198 6.83008H21.9811C21.3797 6.83008 20.8901 7.3064 20.8901 7.89157V10.4332C20.8901 11.0167 21.3797 11.4947 21.9811 11.4947Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.4448 0C7.36152 0 0 7.16285 0 16.001C0 24.8372 7.36152 32 16.4448 32C25.526 32 32.8876 24.8372 32.8876 16.001C32.8876 7.16285 25.526 0 16.4448 0ZM25.4507 27.7896H7.43722C5.72511 27.7896 4.32717 26.5587 4.32717 24.7635V7.2361C4.32717 5.44252 5.72511 4.20998 7.43722 4.20998H25.4507C27.1624 4.20998 28.5608 5.44252 28.5608 7.2361V24.7635C28.5604 26.5587 27.1624 27.7896 25.4507 27.7896Z"
+                                    fill="white" /></svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div class="hotel">
+        <div class="container">
+            <div class="hotel__wrapper">
+                <img class="hotel__wrapper__img" src="./assets/img/hotel.jpg" alt="hotel">
+                <div class="hotel__wrapper__toure">
+                    <h4 class="hotel__wrapper__toure__title">Тур <br> в Созополь, Болгария</h4>
+                    <p class="hotel__wrapper__toure__text">код тура</p>
+                    <p class="hotel__wrapper__toure__code">3094119</p>
+                </div>
+            </div>
+            <div class="hotel__info">
+                <div class="hotel__info__text">
+                    <div class="hotel__info__text__name">
+                        <h2 class="hotel__info__text__name__title">Aquamarine hotel</h2>
+                        <div class="hotel__info__text__name__stars">
+                            <img src="./assets/img/stars/fill_star.svg" alt="fill_star">
+                            <img src="./assets/img/stars/fill_star.svg" alt="fill_star">
+                            <img src="./assets/img/stars/fill_star.svg" alt="fill_star">
+                            <img src="./assets/img/stars/empty_star.svg" alt="empty_star">
+                            <img src="./assets/img/stars/empty_star.svg" alt="empty_star">
+                        </div>
+                        <div class="hotel__info__text__name__price">$256</div>
+                    </div>
+                    <div class="hotel__info__text__mark">
+                        <div class="hotel__info__text__mark__wrapper">
+                            <p class="hotel__info__text__mark__stat">Оценка отеля <strong> 45 отзывов</strong></p>
+                            <div class="hotel__info__text__mark__value">8.4</div>
+                        </div>
+                        <div class="hotel__info__text__mark__criterias">
+                            <div class="hotel__info__text__mark__criterias__item">
+                                <div class="hotel__info__text__mark__criterias__item__title">номер</div>
+                                <div class="hotel__info__text__mark__criterias__item__mark">8.9</div>
+                            </div>
+                            <div class="hotel__info__text__mark__criterias__item">
+                                <div class="hotel__info__text__mark__criterias__item__title">питание</div>
+                                <div class="hotel__info__text__mark__criterias__item__mark">8.1</div>
+                            </div>
+                            <div class="hotel__info__text__mark__criterias__item">
+                                <div class="hotel__info__text__mark__criterias__item__title">сервис</div>
+                                <div class="hotel__info__text__mark__criterias__item__mark">7.9</div>
+                            </div>
+                            <div class="hotel__info__text__mark__criterias__item">
+                                <div class="hotel__info__text__mark__criterias__item__title">инфраструктура</div>
+                                <div class="hotel__info__text__mark__criterias__item__mark">8.9</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hotel__info__stats">
+                    <div class="hotel__info__stats__title">320</div>
+                    <div class="hotel__info__stats__text">солнечных дней в году</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="entertainment">
+        <div class="container">
+            <div class="entertainment__inner">
+                <div class="entertainment__item entertainment__item--first">
+                    <div class="entertainment__item__image">
+                        <img class="entertainment__item__image__img" src="./assets/img/extrim.jpg" alt="extrim">
+                    </div>
+                    <div class="entertainment__item__info">
+                        <div class="entertainment__item__info__name">
+                            <h2 class="entertainment__item__info__name__title">Шелковый путь</h2>
+                            <div class="entertainment__item__info__name__price">$158</div>
+                        </div>
+                        <div class="entertainment__item__info__description">
+                            <div class="entertainment__item__info__description__text">Экстремальный маршрут</div>
+                            <div class="entertainment__item__info__description__price"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entertainment__item">
+                    <div class="entertainment__item__image">
+                        <img class="entertainment__item__image__img" src="./assets/img/jump.jpg" alt="jump">
+                    </div>
+                    <div class="entertainment__item__info">
+                        <div class="entertainment__item__info__name">
+                            <h2 class="entertainment__item__info__name__title">Роупджампинг</h2>
+                            <div class="entertainment__item__info__name__price">$57</div>
+                        </div>
+                        <div class="entertainment__item__info__description">
+                            <div class="entertainment__item__info__description__text">Не дай Бог не любишь</div>
+                            <div class="entertainment__item__info__description__price">
+                                <span class="entertainment__item__info__description__price__sale">$90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">36,6 градусов по цельсию и познавa<span
+                    class="main__title__span">-<br></span>тельная физика</h1>
+
+            <div class="main__content">
+                <div class="main__wrapper">
+                    <div class="main__content__article">
+                        <p class="main__content__article__text main__content__article__text--bold">
+                            Никто не задумывался почему температура человеческого тела 36,6 С? Почему не иная? Почему не
+                            равна дневной температуре окружающего пространства к примеру? Но почему так произошло?
+                            Первая причина лежит от нас на временной оси в прошлом на расстоянии в несколько миллиардов
+                            лет. Именно тогда появилась жизнь.
+                        </p>
+                        <p class="main__content__article__text">
+                            Грубо говоря первичные репликаторы огородились защитной оболочкой от остальной части океана
+                            —
+                            создав клетки. Клетки это замкнутые водные резервуары, в которых вся жизнедеятельность
+                            проходит в водной среде. И все сухопутные организмы концептуально это машины выживания
+                            репликаторов, мобильная (в случае с животными), благоприятная водная среда для репродукции,
+                            окруженная защитной оболочкой от внешнего мира.
+                        </p>
+                    </div>
+
+                    <section class="main__content__answer">
+                        <h3 class="main__content__answer__title">Ищем ответ</h3>
+                        <p class="main__content__answer__text">
+                            Что интересно, все теплокровные функционируют в пределах той же области температур что и
+                            человек. Например температура у лошадей 37,5-38,5; у коров 37,5-39,5; кур 40,5-42,5; свиней
+                            39,0-40,0; кошек 38,0-39,5; обезьян 38,1; голубей 41,0-44,0. Ответ лежит в области нет, не
+                            биологии. А в области физики воды. Дело в том, что теплоемкость воды нелинейно зависит от
+                            температуры. Теплоемкость это количество энергии, которое необходимо потратить для того что
+                            бы нагреть 1 кг вещества на 1 градус. При увеличении температуры она как бы пикирует как
+                            штурмовик, и возносится ввысь после прохождения нижней точки в 36,8 градусов Цельсия. В
+                            организме человека вода составляет около 65-70%, её теплоемкость огромна.
+                        </p>
+                    </section>
+
+                    <div class="main__content__blockquote">
+                        <p class="main__content__blockquote__text">
+                            <i> Дело в том, что теплоемкость воды нелинейно зависит от температуры. Теплоемкость это
+                                количество энергии, которое необходимо потратить для того что бы нагреть 1 кг вещества
+                                на 1
+                                градус. При увеличении температуры она как бы пикирует как штурмовик, и возносится ввысь
+                                после прохождения нижней точки в 36,8 градусов Цельсия. В организме человека вода
+                                составляет около 65-70%, её теплоемкость огромна.</i>
+                        </p>
+                    </div>
+                    <div class="main__content__block_text">
+                        90% энергии получаемой с пищей, теплокровные потому тратят только лишь на поддержание постоянной
+                        температуры внутренней среды. На нагревание воды. Потому эта ямка, минимум, в котором нужно было
+                        тратить минимальное количество энергии на поддержание своего состояния, как аттрактор, стягивал
+                        на себя на протяжении эволюции все «модели» теплокровных. Фенотипы, с рабочей температурой иных
+                        диапазонов были слишком «прожорливыми» и отсеивались отбором.
+                    </div>
+
+                    <div class="main__content__clorofil">
+                        <h4 class="main__content__clorofil__title">Хлорофилл и красота</h4>
+                        <p class="main__content__clorofil__text">
+                            Могло случится так что небо было бы ядовито-желтое а не голубое. Трава так же красная.
+                            Нравился бы нам такой пейзаж? Почему красный, ярко-желтый, создают чувство неспокойствия и
+                            не подходят для идилических райских картин ландшафтов как голубой и зеленый? Дело не в них а
+                            в нас. Мы продукт эволюции, продукт среды в которой мы развивались. Что и было показано на
+                            примере температуры тела.
+                        </p>
+                        <p class="main__content__clorofil__text">
+                            Начну с далека, так уж нужно, ничего не поделаешь… Зеленым цветом на картинке окрашена
+                            трава, трава это растение. Первыми вышли задолго до животных на сушу растения. Они
+                            сформировали то первичное окружение для живых организмов, создали им условия существования
+                            на суше. Стали источником пищи и крова, ведь животные гетеротрофы. Растения же в основном
+                            автотрофы. Так вышло что у растений при участии хлорофилла осуществляется процесс
+                            фотосинтеза. А по совместительству он так же зелёный пигмент, обусловливающий окраску
+                            хлоропластов растений в зелёный цвет.
+                        </p>
+                        <p class="main__content__clorofil__text">
+                            Так же интересна физическая причина наших понятий красоты.
+                        </p>
+                    </div>
+
+                    <div class="main__content__table">
+                        <div class="main__content__table__head">
+                            <div class="main__content__table__head__block">
+
+                                <div class="main__content__table__head__block__item">Хлорофилл a</div>
+                                <div class="main__content__table__head__block__item">Хлорофилл b</div>
+                                <div class="main__content__table__head__block__item">Хлорофилл c1</div>
+                                <div class="main__content__table__head__block__item">Хлорофилл c2</div>
+
+                            </div>
+                        </div>
+                        <div class="main__content__table__row">
+
+                            <div class="main__content__table__row__title">Формула</div>
+                            <div class="main__content__table__row__formul">
+                                <div class="main__content__table__row__formul__item ">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content__table__row">
+                            <div class="main__content__table__row__title">C2 группа</div>
+                            <div class="main__content__table__row__formul">
+                                <div class="main__content__table__row__formul__item">
+                                    -C<sub>55</sub>
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    -C<sub>55</sub>
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    -C<sub>55</sub>
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    -C<sub>55</sub>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__content__table__row">
+                            <div class="main__content__table__row__title">C3 группа</div>
+                            <div class="main__content__table__row__formul">
+                                <div class="main__content__table__row__formul__item ">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                                <div class="main__content__table__row__formul__item">
+                                    C<sub>55</sub>H<sub>44</sub>O<sub>5</sub>N<sub>4</sub>Mg
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__content__source">
+                        <div class="main__content__source__label">
+                            Как найти эти консервативные признаки? Наиболее часто рассматривают 5 источников информации
+                            о
+                            них:
+                        </div>
+                        <ul class="main__content__source__list">
+                            <li class="main__content__source__list__item"> эмбриологические исследования;</li>
+                            <li class="main__content__source__list__item"> тератологические данные;</li>
+                            <li class="main__content__source__list__item"> сравнительно-морфологические данные;</li>
+                            <li class="main__content__source__list__item"> анализ врожденных поведенческих программ
+                                (этологические данные);</li>
+                            <li class="main__content__source__list__item"> изучение взаимосвязи с другими видами.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__sidebar">
+                    <div class="main__sidebar__title">0,71</div>
+                    <div class="main__sidebar__subtitle">WHR здорового человека</div>
+                    <p class="main__sidebar__text">Один из весьма надежных оказателей здоровья, фертильности, как раз
+                        «waistto hip ratio».
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copy">
+                    2019 Тестовое задание на вакансию верстальщика в компанию <a class="footer__copy__link" href="#">
+                        Aweb</a>
+                </div>
+                <div class="footer__icons">
+                    <div class="footer__icons__item">
+                        <a href="#"><img src="./assets/img/icons/facebook-footer.svg" alt="facebook"></a>
+                    </div>
+                    <div class="footer__icons__item">
+                        <a href="#"><img src="./assets/img/icons/google-footer.svg" alt="google"></a>
+                    </div>
+                    <div class="footer__icons__item">
+                        <a href="#"><img src="./assets/img/icons/instagram-footer.svg" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
